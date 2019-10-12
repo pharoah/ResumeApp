@@ -1,17 +1,46 @@
 # ResumeApp
 
 This project is a single page application (SPA) for resume, it has been built by utilizing React.
-Further, it has additional functionality of the API call to embedded demos for project. API module is built using Flask framework.
 
-## Available Scripts
+## Walk Through
 
-In the project directory, you will find frontend code written in javascript (ES6) and python code for API setup. 
+This application has followig sections:
+- About - Name, Addess and summary
+- Skills - List of Skills
+- Education - University education and certificates
+- Experience - Work History 
+- Projects - List of projects
+- Awards - Research papers and achievements
+- Email, Github Profile and Linkedin Profile
 
-### How to Replicate
+## How to Replicate
 
-Clone or download this repository and edit resume.js in "data" directory as per your details using any text editor. Further, you will need npm to run app in dev mode to check. Please feel to change style and functionality as it suites you. Once everything is done, build the project and deploy it.
+- Clone or download this repository. Run following command in root directory.
+	```
+	npm install
+	```
+- Edit resume.js in src > data as per your details and save.
+- Change favicon, images, icons as per your need and details in the resume.js.
+- Run Following command
+	```
+	npm start
+	```
 
-### Yet to Update
+## Pre-requisites
 
-I will keep it updated to more detailed documentation.
-Thank you.
+This project was built with following requirement
+
+- Nodejs version v10.15.2
+- create-react-app 3.2.0
+- npm 5.8.0
+
+## Deployment
+
+Once you feel like done with all the details and run following command to build app.
+```
+npm build
+```
+
+Now, final ready to deploy files will be ready in build directory. Now you can deploy these files onto any server.
+
+[Deployment Guide](https://cloud.google.com/storage/docs/hosting-static-website)
