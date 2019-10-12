@@ -5,6 +5,7 @@ This project is a single page application (SPA) for resume, it has been built by
 ## Walk Through
 
 This application has followig sections:
+
 - About - Name, Addess and summary
 - Skills - List of Skills
 - Education - University education and certificates
@@ -12,6 +13,8 @@ This application has followig sections:
 - Projects - List of projects
 - Awards - Research papers and achievements
 - Email, Github Profile and Linkedin Profile
+
+You can check this profile - [Wali Farooqui](https://walifarooqui.com)
 
 ## How to Replicate
 
