@@ -76,23 +76,28 @@ export const experienceList = [
 export const certificateList = [
     {
         title: `Advance Data Science with IBM, a 4-course specialization by IBM on Coursera`,
-        month:`07/2019`
+        month:`07/2019`,
+        link: `https://www.coursera.org/account/accomplishments/specialization/certificate/894H3RLW2YHJ?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate`
     },
     {
         title: `IBM Data Science Professional Certificate, a 9-course specialization by IBM on Coursera`,
-        month:`05/2019`
+        month:`05/2019`,
+        link:`https://www.coursera.org/account/accomplishments/specialization/certificate/P2EZYEMJ72BD?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate`
     },
     {
         title: `Convolutional Neural Networks in TensorFlow by deeplearning.ai on Coursera`,
-        month:`07/2019`
+        month:`07/2019`,
+        link: `https://www.coursera.org/account/accomplishments/certificate/C73R6MMP6X5B?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate`
     },
     {
         title: `Natural Language Processing in TensorFlow by deeplearning.ai on Coursera`,
-        month:`07/2019`
+        month:`07/2019`,
+        link:`https://www.coursera.org/account/accomplishments/certificate/9S4QT64F9QBW?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate`
     },
     {
         title: `Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning by deeplearning.ai on Coursera`,
-        month:`07/2019`
+        month:`07/2019`,
+        link:`https://www.coursera.org/account/accomplishments/certificate/AU9Y7QMAPWMC?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate`
     }
 
 ];
@@ -172,7 +177,7 @@ export const projectList = [
         name:`Resume App`,
         description:`This is a simple Resume web application based on SPA architechture utilizing React,
 		     ResumeApp also has additional feature to deploy your machine learning models and access results via REST API with Flask at the backend.
-		     Hence, I have built frontend for Regression, Classification and Clustering with 1 input for prediction at a time.`,
+		     Further, I plan to integrate module for Regression, Classification and Clustering with 1 input for prediction at a time.`,
         link:`https://github.com/pharoah/ResumeApp`,
         category:`Web Development`,
         image:`resume.png`
@@ -236,3 +241,17 @@ export const skillList = [
     }
 
     ];
+
+    export const awards = {
+        awards: [
+        `Our team “Anant” secured its position among finalist at Kennedy Space Center, Florida in NASA's 3rd Annual Lunabotics Mining Competition 2012.`,
+        `Our team “Knight of Apocalypse” secured rank 2 in Total Genius Campus competition conducted by Total Group, France.`,
+        `Secured ALL INDIA RANK 328 in NATIONAL SCIENCE OLYMPIAD in 2008.`,
+        `Secured 1st position in Cisco aligned networking conduct by HP Education India.`,
+        `Selected as the Microsoft Student partner (2010).`,
+        `Secured 2nd position in zonal level Robotics competition (Line follower) conducted by Robosapiens in “Robo-Opus-2010” at IT-BHU.`,
+        `Secured 1st position in Trax(mobile controlled robot), ZeroContact(obstacle avoider robot) competition in Infotsav’10 at ABV-IIITM, Gwalior.`
+        ],
+        publications:[`“Coordinated Multi-Robot Navigation Using Sectorization of Environment”, Published in IEEE
+        Indore Chapter, (CSIBIG2014 Conference)`]
+    }

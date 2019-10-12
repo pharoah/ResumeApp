@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Awards from './components/Awards';
 
 import { aboutMe } from './data/resume';
 
@@ -28,6 +29,7 @@ class App extends Component {
       <Route path="/education" render = {() => <Education eduTitle = "University" certTitle = "Certificates"/>} />
       <Route path="/skills" render = {() => <Skills title = "Skills" />} />
       <Route path="/projects" component = { Projects } />
+      <Route path="/awards" component = { Awards } />
       </div>
       </BrowserRouter>
     );

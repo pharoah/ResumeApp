@@ -20,7 +20,7 @@ const Education = (props) => {
             <div className="education-block">
                 <h3>{ cert.title}</h3>
                 <span className="education-date">{ cert.month }</span>
-                <h4><a href={ cert.link } target="_blank">View Certificate</a></h4>
+                <h4><a href={ cert.link } target="_blank">Verify</a></h4>
             </div>
 
         );

@@ -51,6 +51,9 @@ const Navbar = (props) => {
                     <li>
                         <NavLink className = "nav-menu-link" activeClassName = "clicked" to="/projects" onClick={ closeMenu }>Projects</NavLink>
                     </li>
+                    <li>
+                        <NavLink className = "nav-menu-link" activeClassName = "clicked" to="/awards" onClick={ closeMenu }>Awards</NavLink>
+                    </li>
                     
                   
                     <li>

@@ -61,8 +61,17 @@ header.sticky{position:fixed;z-index:999}
 #skills li.list{display:block;margin:9px;list-style:none;cursor:default;font-size:1.2em}
 #skills li i{font-size:3.2em;}
 #skills i:hover{color:#3498db;}
-
 #skills li a:hover{color:#217dbb}
+
+#awards{position:relative;z-index:10; margin-top:10%}
+#awards-content hr{width:50%}
+#awards-content h1{color:#374054;font-weight:400;font-size:2em;letter-spacing:0.05em;line-height:0.9em;margin:0; text-align:center}
+#awards-content ul{list-style: none; margin:10px}
+#awards-content li{color:#374054;padding:2px; text-align:left; margin:10px}
+#awards-content li span{margin:10px}
+#awards-content li:hover{color:#217dbb;padding:2px; text-align:left}
+
+
 
 .list-category{position:relative; margin-bottom:20px; }
 

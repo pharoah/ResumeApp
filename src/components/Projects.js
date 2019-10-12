@@ -10,11 +10,10 @@ const Projects = () => {
             </div>
         
             <div className="project-info">
-                <h3>{ project.name }</h3>
+               <a className="btn btn-primary" href={ project.link } target = "_blank"> <h3>{ project.name }</h3> </a>
                 <p>
                     { project.description }
                 </p>
-                <a className="btn btn-primary" href={ project.link } target = "_blank">View Project</a>
             </div>
             
             </div>
