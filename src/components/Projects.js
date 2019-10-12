@@ -14,17 +14,15 @@ const Projects = () => {
                 <p>
                     { project.description }
                 </p>
-                <a className="btn btn-primary" href={ project.link } target = "_blank" className="badge badge-info">View Project</a>
+                <a className="btn btn-primary" href={ project.link } target = "_blank">View Project</a>
             </div>
             
             </div>
         );
 
-    });
-
-  
+    });  
     return (
-    <div id="projects" className="projects background-alt">
+    <div id="projects" className="projects">
         { projects }
     </div>
     );

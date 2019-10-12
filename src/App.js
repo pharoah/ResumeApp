@@ -25,7 +25,7 @@ class App extends Component {
       <Route exact path="/" render = {() => <Home name = { aboutMe.name } address = { aboutMe.address }
                                       summary = { aboutMe.summaryLines }/>}/> 
       <Route path="/experience" component = { Experience } />
-      <Route path="/education" render = {() => <Education eduTitle = "Degrees" certTitle = "Certificates"/>} />
+      <Route path="/education" render = {() => <Education eduTitle = "University" certTitle = "Certificates"/>} />
       <Route path="/skills" render = {() => <Skills title = "Skills" />} />
       <Route path="/projects" component = { Projects } />
       </div>

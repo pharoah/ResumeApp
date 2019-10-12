@@ -11,7 +11,6 @@ header a:hover{color:#217dbb;text-decoration:none;background:#eee;border-radius:
 header a:focus{color:#3498db;text-decoration:none}header.active{display:block}
 header.sticky{position:fixed;z-index:999}
 
-footer{padding:50px 0}.copyright{padding-top:20px}.copyright p{margin:0;color:#74808a}
 .top{text-align:center}.top span{cursor:pointer;display:block;margin:15px auto 0 auto;width:35px;height:35px;border-radius:50%;border:3px solid #b9bfc4;text-align:center}.top i{color:#74808a}.social{text-align:right}.social ul{margin:5px 0 0 0;padding:0}.social li{display:inline-block;font-size:1.25em;list-style:none}.social a{display:block;color:#74808a;padding:10px}.social a:hover{color:#3498db}.btn-rounded-white{display:inline-block;color:#fff;padding:15px 25px;border:3px solid #fff;border-radius:30px;transition:.5s ease all}.btn-rounded-white:hover{color:#3498db;background:#fff;text-decoration:none}.shadow{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}.shadow-large{box-shadow:0 3px 6px rgba(0,0,0,0.08),0 3px 6px rgba(0,0,0,0.15)}
 
 .heading{position:relative;display:inline-block;font-size:2em;font-weight:300;margin:auto}
@@ -29,12 +28,12 @@ footer{padding:50px 0}.copyright{padding-top:20px}.copyright p{margin:0;color:#7
 
 
 
-.timeline--wrapper{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9; margin-top:5%}
+.timeline--wrapper{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9; margin-top:3%}
 .timeline{margin:30px auto 0 auto;position:relative;max-width:1000px}
 .timeline:before{position:absolute;content:'';top:0;bottom:0;left:303px;right:auto;height:100%;width:3px;background:#3498db;z-index:0}
 .timeline-item-dateinner{background:#3498db}
 
-#education{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center; margin-top:5%}
+#education{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center; margin-top:3%}
 #education h2{color:#374054;margin-bottom:50px}
 .education-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}
 .education-block h3{font-weight:500;float:left;margin:0;color:#374054}
@@ -43,9 +42,9 @@ footer{padding:50px 0}.copyright{padding-top:20px}.copyright p{margin:0;color:#7
 .education-block p,.education-block ul{margin:0;color:#74808a;font-size:0.9em}
 .education-block ul{padding:0 0 0 15px}
 
-#projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center; margin-top:5%}
+#projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center; margin-top:3%}
 #projects h2{color:#374054;margin-bottom:50px}
-.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
+.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;border-radius:4px}
 .project-image{float:left}
 .project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:5px;text-align:left}
 .project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}
@@ -54,17 +53,18 @@ footer{padding:50px 0}.copyright{padding-top:20px}.copyright p{margin:0;color:#7
 
 
 
-#skills{padding:50px 15px;text-align:left; margin: auto}
+#skills{padding:50px 15px;text-align:left; margin: auto;margin-top:3%}
 #skills h1{color:#374054;margin:auto; text-align:center; margin-bottom:10px; font-weight:500}
 #skills ul{display:block;margin:auto;padding:0;max-width:auto}
 #skills ul.list-column{columns: 2;-webkit-columns: 2;-moz-columns: 2;}
 #skills li{display:inline-block;margin:8px;list-style:none;cursor:default;font-size:1.2em}
 #skills li.list{display:block;margin:9px;list-style:none;cursor:default;font-size:1.2em}
 #skills li i{font-size:3.2em;}
-#skills i:hover{color:#217dbb}
-#skills li img{filter: gray;-webkit-filter: grayscale(1);filter: grayscale(1);}
+#skills i:hover{color:#3498db;}
+
 #skills li a:hover{color:#217dbb}
-.list-category{position:relative; margin-bottom:20px; margin-top:5%}
+
+.list-category{position:relative; margin-bottom:20px; }
 
 #menu.active{display:block}
 #mobile-menu-open{display:none;cursor:pointer;position:fixed;right:15px;top:10px;color:#3498db;font-size:1.5em;z-index:20;padding:0 7px;border-radius:4px;background:#fff}
@@ -92,12 +92,15 @@ header{position:fixed;display:none;z-index:999;animation:none;bottom:0;height:10
 .education-block h3,.education-block span{float:none}
 .project-image{display:none}
 .project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}
+#lead-content,#education,#project,.timeline--wrapper,#skills{margin-top:1%}
 }
 
 @media only screen and (max-width: 480px){
 #lead-content h1{font-size:1.5em}
 #lead-content h2{font-size:1em}
-#lead-content a{font-size:0.9em;padding:5px 10px}}
+#lead-content a{font-size:0.9em;padding:5px 10px}
+#lead-content,#education,#project,.timeline--wrapper,#skills{margin-top:1%}
+}
 
 
 .nav-menu-link.clicked {color:#eee;background-color:#3498db;border-radius:4px;text-decoration:none;}

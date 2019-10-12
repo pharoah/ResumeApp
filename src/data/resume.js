@@ -113,10 +113,10 @@ export const projectList = [
         {
         id:`02`,
         name:`Credit Card Fraud Detecttion`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
+        description:`In this project I utilized dataset from kaggle and did a comparative analysis of models for fraud detection.
+		     I build 4 models using Isolation Forest, Local Outlier Factor, AutoEncoder and LSTM. Area under ROC curve was metric for evaluation 
+		     given imbalance ration in dataset. After considering threhold of 5 and reconstructing confusion matrix, AutoEncoder outperformed other
+		     models on metrics under considertion.`,
         link:`https://github.com/pharoah/Credit-Card-Fraud-Detection---Capstone-Project`,
         category:`Machine Learning`,
         image:`credit_fraud.png`
@@ -125,94 +125,32 @@ export const projectList = [
         {
         id:`03`,
         name:`Digit Recognizer`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
+        description:`This project was part of the kaggle competition, dataset has 42000 digits and each digit has 784 pixels as data points and 1 as label. There were
+		     10 labels for each digits in range 0-9. I utilized keras to build DNN model with 2 dense layer and 1 dropout layer to apply regularization. In result,
+		      model predicted with accuracy of 98% and models was among top 20% of total submissions on kaggle. `,
         link:`https://github.com/pharoah/DigitRecognizer`,
         category:`Machine Learning`,
         image:`digits.png`
         },
         
         {
-        id:`04`,
-        name:`Cats vs Dogs with Augmentation`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
-        link:`https://github.com/pharoah/Titanic-Kaggle-Dataset`,
-        category:`Machine Learning`,
-        image:`cats-vs-dogs.png`
-        },
-        
-        {
-        id:`05`,
-        name:`Human vs Horse with Augmentation`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
-        link:`https://github.com/pharoah/Titanic-Kaggle-Dataset`,
-        category:`Machine Learning`,
-        image:`horse-vs-human.png`
-        },
-        
-        {
         id:`06`,
         name:`Housing Prices - Regression`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
+        description:`This was a part of competition submission on kaggle, dataset included 1460 house prices as label with 79 explanatory variables describing
+            (almost) every aspect of residential homes in Ames, Iowa.I utilized ANOVA and Chi-squared Test for feature engineering and then build regression model utilizing XGBooast.
+            After performing parameter tuning model was able to achieve RMSE score of 0.021.`,
         link:`https://github.com/pharoah/HousePrices-Regression`,
         category:`Machine Learning`,
         image:`housing.png`
         },
         
-        {
-        id:`07`,
-        name:`IMDB Reviews`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
-        link:`https://github.com/pharoah/HousePrices-Regression`,
-        category:`Machine Learning`,
-        image:`imdb-reviews.png`
-        },
-        
-        {
-        id:`08`,
-        name:`Shakespear Poem`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
-        link:`https://github.com/pharoah/HousePrices-Regression`,
-        category:`Machine Learning`,
-        image:`shakespear.png`
-        },
-        
-        {
-        id:`09`,
-        name:`News and Sarcasm`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
-        link:`https://github.com/pharoah/HousePrices-Regression`,
-        category:`Machine Learning`,
-        image:`sarcasm.png`
-        },
         
         {
         id:`10`,
         name:`Lamara - Fashion Ecommerce`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
+        description:`This was the venture in fashion eCommerce, I successfully launched and started operations with the collaboration of the mciro and small garment enterprises
+                in Mumbai, India. I built eCommerce website for Lamara utlizing Magento 2, Postgresql, , Varnish, Cloudflare and it was hosted on AWS. Further, we had 3 payment gateways, 1 affiliated plaftorm, Email Server, Zoho CRM,
+                and many other third party services to provide exceptional services.`,
         link:`https://lamara.co.in/`,
         category:`Web Development`,
         image:`lamara.png`
@@ -221,10 +159,9 @@ export const projectList = [
         {
         id:`11`,
         name:`Blog CMS with Flask`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
+        description:`This is a simple full featured web applciation with flask at the backend. Project is simple and easy to use blogging platform. I have features
+		     like pagination, email-verification, account access control, and database for blog. Further, this is a on going personal project. I intend to add features
+		     like conversion jupyter notebook to blog post to enable data scientists and machine learning prationers to tell their story efficiently.`,
         link:`https://github.com/pharoah/Data-Science-Blog`,
         category:`Web Development`,
         image:`blog-cms.png`
@@ -233,29 +170,58 @@ export const projectList = [
         {
         id:`12`,
         name:`Resume App`,
-        description:`This project tried to identify new location for a restaurant in New York city. Cuisines, Demographics and Neighborhood
-                 data were scraped from Wikipedia, Further Farmer's market data was taken from cityofnewyork.us and NYC
-                 data from nyc.edu. K-Mean clustering with 2 clusters was applied on the dataset and foursquare api along with folium and
-                 geopy were utilized to visualize clusters on Map.`,
-        link:`https://github.com/pharoah/Data-Science-Blog`,
+        description:`This is a simple Resume web application based on SPA architechture utilizing React,
+		     ResumeApp also has additional feature to deploy your machine learning models and access results via REST API with Flask at the backend.
+		     Hence, I have built frontend for Regression, Classification and Clustering with 1 input for prediction at a time.`,
+        link:`https://github.com/pharoah/ResumeApp`,
         category:`Web Development`,
         image:`resume.png`
-        },        
+        }       
 ];
 
 export const skillList = [
     {
         type:`fonts`,
         name:`Programming Languages & Tools`,
-        fonts:[`devicon-python-plain`, `devicon-c-plain`, `devicon-javascript-plain`, `devicon-html5-plain`, `devicon-css3-plain`, `devicon-git-plain`, `devicon-react-original`, 'devicon-wordpress-plain',
-        `devicon-postgresql-plain`, `devicon-mongodb-plain`, `devicon-linux-plain`, `devicon-nginx-original`, `devicon-docker-plain`, `devicon-amazonwebservices-plain-wordmark`]
+        fonts:
+        [
+            {name:`Python`,font:`devicon-python-plain`},
+            {name:`C`, font:`devicon-c-plain`},
+            {name:`JavaScript`, font:`devicon-javascript-plain`},
+            {name:`HTML5`, font:`devicon-html5-plain`},
+            {name:`CSS3`, font:`devicon-css3-plain`},
+            {name:`Git`, font:`devicon-git-plain`},
+            {name:`React`, font:`devicon-react-original`},
+            {name:`Wordpress`, font:'devicon-wordpress-plain'},
+            {name:`PostgreSQL`, font:`devicon-postgresql-plain`},
+            {name:`MongoDB`, font:`devicon-mongodb-plain`},
+            {name:`Linux`, font:`devicon-linux-plain`},
+            {name:`Nginx`, font:`devicon-nginx-original`},
+            {name: `Docker`, font:`devicon-docker-plain`},
+            {name: `Amazon Web Services`, font:`devicon-amazonwebservices-original`}
+        ]
     },
 
     {
         type:`icons`,
-        name:`Data Science Stack`,
-        icons:[`numpy.svg`, `sql.svg`, `nosql.svg`, `flask.svg`, `pandas.svg`, `matplotlib.svg`, `keras.svg`, `tensorflow.svg`,
-                `scikit-learn.svg`, `spark.svg`, `jupyter.svg`, `kafka.svg`, `tableau.svg`, `excel.svg`]
+        name:`Data Science & ML Tools`,
+        icons:
+        [
+            {name:`SQL`, img:`sql.svg`},
+            {name: `NoSQL`, img:`nosql.svg`}, 
+            {name: `Flask`, img:`flask.svg`},
+            {name: `Jupyter Notebook`, img:`jupyter.svg`}, 
+            {name:`NumPy`, img:`numpy.svg`},
+            {name: `Pandas`, img:`pandas.svg`},
+            {name: `MatPlotLib`, img:`matplotlib.svg`}, 
+            {name: `Keras`, img:`keras.svg`}, 
+            {name: `TensorFlow`, img:`tensorflow.svg`},
+            {name: `Scikit-Learn`, img:`scikit-learn.svg`}, 
+            {name: `Apache Spark`, img:`spark.svg`}, 
+            {name: `Apache kafka`, img:`kafka.svg`}, 
+            {name: `Tableau`, img:`tableau.svg`}, 
+            {name: `Microsoft Excel`, img:`excel.svg`}
+        ]
     },
 
     {

@@ -13,8 +13,9 @@ const Skills = (props) => {
                     { skill.fonts.map((font)=>
                         {
                             return (
-                                        <li className = "list-inline-item">
-                                            <i className = { font } ></i> 
+                                        <li className = "list-inline-item" >
+                                            <i className = { font.font } title = { font.name }></i>
+                                            
                                         </li>
                                      );
                         })
@@ -32,7 +33,7 @@ const Skills = (props) => {
                     { skill.icons.map((icon)=>{
                             return (
                                 <li className = "list-inline-item">
-                                    <img src={ require("../images/svg/"+icon) } width="64" height="64"/>
+                                    <img src={ require("../images/svg/"+icon.img) } title={ icon.name } width="64" height="64"/>
                                 </li>
                             );
                         }) }
